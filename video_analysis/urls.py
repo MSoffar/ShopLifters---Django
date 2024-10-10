@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import video_upload
 
 urlpatterns = [
-    path('upload/', views.video_upload, name='video_upload'),
+    path('video-upload/', video_upload, name='video_upload'),
 ]
